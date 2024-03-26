@@ -1,0 +1,41 @@
+1f. Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados
+encontrados na Análise Exploratória dos dados
+
+Com a base de dados utilizada para esta tarefa, detectamos a presença de valores faltantes e duplicados.
+Optamos por remover os valores faltantes para realizar os cálculos. Ao analisar a contagem de registros por marca,
+observamos que a Fiat possui o maior número de registros, seguida pela Volkswagen e Chevrolet.
+No entanto, a contagem dos modelos mais presentes na base não corresponde a essa ordem. 
+Os modelos mais presentes são, respectivamente, Fiat, Ford e Volkswagen.
+    
+
+2e - Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no
+item d
+
+Observou-se uma baixa variação de preços entre as marcas de veículos com câmbio manual e entre as mesmas marcas e o preço
+de seus veículos de cambio automático. A exceção ocorre nos modelos da fabricante Renault, que apresentam valores
+significativamente inferiores em comparação à outras marcas, tanto para os modelos automáticos quanto para os manuais. Os veículos de
+câmbio automático em geral apresentam maior preço médio.
+
+
+2g. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no
+item f
+
+Por meio do gráfico apresentado, é possível observar o aumento de preço dos veículos movidos a diesel em comparação com outros
+combustíveis, como gasolina e álcool. Especificamente para os veículos da marca VW, esse aumento é ainda mais pronunciado,
+destacando-se significativamente em relação aos valores dos veículos movidos a gasolina e álcool.
+É interessante notar que as fabricantes Renault e Nissan não oferecem veículos movidos a álcool, porém, o preço dos veículos
+da Renault é comparável aos da Fiat movidos a gasolina.
+
+
+3f. Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados
+na análise de importância de variáveis
+
+Foi observado que em ambos os algoritmos de machine learning usados as variáveis de maior importância são a
+potência do motor 'engine_size' e o ano do modelo. Apesar da importância das variáveis no algoritmo XGBoost ter sido menor
+A acurácia de ambos os modelos foi muito semelhante.
+
+3h. Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
+
+A avaliação utilizada foi a R², ambos os modelos apresentam resultados equivalentes diante da métrica,
+foi obtido 95,99% pelo modelo XGBoost e 96,03% pelo modelo Random Forest sem parâmetros configurados.
+
